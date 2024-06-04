@@ -5,6 +5,14 @@
 # x.save("1.png")
 
 
+# import segno as f  # type: ignore
+# x = f.mkae("https://monkeytype.com/#google_vignette")
+# x.save("1.pdf")
+
+# import segno
+# x = segno.make ("https://monkeytype.com/#google_vignette")
+# x.save("1.pdf")
+
 
 # import segno
 
@@ -25,18 +33,3 @@
 # x = pywhatkit.info()
 
 
-def info(topic,lines=3):
-    '''Gives information on a topic from wikipedia.'''
-    spe = wikipedia.summary(topic, sentences = lines)
-    print(spe)
-
-output = wikipedia.summary(search, sentences=15)
->>> from contextlib import redirect_stdout
->>> from io import StringIO
->>> 
- buffer = StringIO()
-with redirect_stdout(buffer):
-...     pywhatkit.info(search, lines=15)
-... 
-buffer.getvalue()
-Output will appear here>
