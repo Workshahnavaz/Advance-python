@@ -56,3 +56,34 @@
 
 # x = math.pi
 # print(x)
+
+# polymorfisiom :
+
+# class a():
+#     def __init__(self,a,b):
+#         self.ab = a
+#         self.bc = b
+#         print("class1")
+#     def g(self):
+#         print('nothing')
+# class b():
+#     def __init__(self,c,d):
+#         self.hg = c
+#         self.nj = d
+#         print("class2")
+#     def g(self):
+#         print('nothing')
+# class c():
+#     def __init__(self,f,g):
+#         self.ko = f
+#         self.fg = g
+#         print("class1")
+#     def g(self):
+#         print('nothing')
+# virani = a('shanu','virani')
+# saheb = b('sahil','virani')
+# jio = c('shahenaz', 'virani')
+
+# for x in (virani,saheb,jio):
+#     x.g()
+
